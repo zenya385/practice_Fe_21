@@ -13,6 +13,13 @@ li {
 
 a {
   text-decoration: none;
+  color: currentColor;
+}
+
+body {
+  font-family: Montserrat;
+  line-height: normal;
+
 }
 
 .container {
@@ -21,4 +28,57 @@ a {
 }
 
 .header {
+  display: flex;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 63px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 55px;
+
+}
+
+.logo {
+  color: #95E1D3;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.nav-menu__item {
+  color: #95E1D3;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.nav-menu__item :hover {
+  color: #F38181;
+}
+
+.service-subtitle {
+  color: #333;
+  font-family: Kaushan Script;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.service-title {
+  color: #333;
+font-size: 30px;
+font-weight: 700;
+font-variant: all-small-caps;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.service-line {
+  width: 60px;
+height: 4px;
+background: #F38181;
+margin: 0 auto;
 }
